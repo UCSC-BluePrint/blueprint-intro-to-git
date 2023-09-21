@@ -17,6 +17,11 @@ main, header {
     box-sizing: border-box;
 }
 
+header#student-banner, main#student-info {
+    width: 70%;
+    max-width: 500px;
+} 
+
 /* HEADER */
 header {
     text-align: center;
@@ -82,3 +87,23 @@ footer {
     box-sizing: border-box;
     text-align: center;
 }
+
+/* STUDENT BANNER **/
+header#student-banner {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+header#student-banner p { font-style: italic; }
+
+/* STUDENT'S CARD */
+main#student-info {
+    margin: 0 auto;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+main#student-info h1 {
+    font-size: 2.5rem;
+}
+
